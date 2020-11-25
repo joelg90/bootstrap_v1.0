@@ -1,0 +1,57 @@
+.rtr_cont_banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/fondito.png);
+}
+
+.rtr_menucentral{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(77, 9, 9, 0.164);
+    color: silver;
+    margin: auto;
+}
+
+.rtr_menucentral hr{
+    border-top: 1px solid silver;
+}
+
+.rtr_menucentral h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.rtr_menucentral p{
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.rtr_menucentral_link{
+    margin: 15px;
+    position: relative;
+}
+
+.rtr_menucentral_link a{
+    display: inline-block;
+    color: silver;
+    text-decoration: none;
+    border: 1px solid silver;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.rtr_menucentral_link a:hover{
+    color: red;
+}

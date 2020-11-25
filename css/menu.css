@@ -1,0 +1,58 @@
+
+header{
+    width: 100%;
+    background-color: none;
+}
+
+.navegacion{
+	width: 500px;
+	margin: 0;
+    background: none;
+    position: fixed;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 25px;
+	color: #ffffff;
+	font-family: 'Franklin Gothic Medium';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #ffffff;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #ffffff00;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: red;
+	font-family: 'Franklin Gothic Medium';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
