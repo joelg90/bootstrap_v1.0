@@ -21,10 +21,10 @@
                     <ul class="submenu">
                         <li><a href="index.html">Principal</a></li>
                         <li><a href="historia.html">Historia</a></li>
+                        <li><a href="integrantes.html">Integrantes</a></li>
                         <li><a href="shows.html">Shows</a></li>
                         <li><a href="discografia.html">Discografia</a></li>
                         <li><a href="tienda.html">Tienda</a></li>
-                        <li><a href="adivinanza.html">Adivinanza</a></li>
                         <li><a href="contacto.html">Contacto</a></li> 
                     </ul>
                 </li>
@@ -34,45 +34,32 @@
     </section>
         <div class="container-storage ">                   
             <div class="row rtr_menucentral">
-                <div class="col">
+                <div class="col-md-12">
                     <h1 style="font-family: 'Metal Mania', cursive;">REACTOR 4</h1>
-                    <h2><b>INTEGRANTES</b></h2>
+                    <h2><b>ADIVINANZA</b></h2>
                     <hr/>
+                    <form >
+                        <label for="dato" id="preg"></label>
+                        <input type="text" id="dato"></input>
+                        <button type="button" onclick="validacionResp()">Enviar</button>
+                        <ul>
+                            <li id="p1">
+                            </li>
+                            <li id="p2">
+                            </li>
+                        </ul>
+                    </form>
                 </div>
-                <div class="container">
-                    <div class="row">
-                      <div class="col-md-auto">
-                        <h3><b>ANTERIORES</b></h3>
-                        <ul>
-                            <li>Nicolas Maetta(BATERIA)</li>
-                            <li>Brian Nazzar(CANTANTE)</li>
-                            <li>Miguel Cabrera(BAJO)</li>
-                            <li>Jonathan Maetta(CANTANTE)</li>
-                            <li>Marcelo Guardoni(BATERIA)</li>
-                        </ul>
-                        
-                      </div>
-                      <div class="col-md-auto">
-                        
-                      </div>
-                      <div class="col-md-auto">
-                        <h3><b>ACTUALES</b></h3>
-                        <ul>
-                            <li>Martin Alza(GUITARRA-VOZ)</li>
-                            <li>Joaquín Godoy(GUITARRA)</li>
-                            <li>Joel Godoy(BAJO)</li>
-                            <li>"Cono" Cabellier(VOZ)</li>
-                            <li>"Toto" Marchesini(BATERIA)</li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>     
+                <div class="col-md-12">
+                    <p style="text-align: justify; color: silver;"><b><i>                 
+                    </i></b></p>
+                </div>
             </div>
         </div>
     </section>
+    <script src="js/scriptAdivinanza.js"></script>
     <script src="externos/bootstrap/js/jquery.js"></script>
     <script src="externos/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
 
 </body>
 </html>
